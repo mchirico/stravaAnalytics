@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import myproj
+import stravaAnalytics
 import sys
 import os
 

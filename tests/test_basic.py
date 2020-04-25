@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from .context import myproj
+from .context import stravaAnalytics
 
 import unittest
 
