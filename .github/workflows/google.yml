@@ -30,6 +30,8 @@ jobs:
   setup-build-publish-deploy:
     name: Setup, Build, Publish, and Deploy
     runs-on: ubuntu-latest
+
+    if: github.actor == github.event.repository.owner.login
     steps:
 
     - name: Checkout
